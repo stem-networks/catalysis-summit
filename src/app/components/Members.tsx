@@ -92,7 +92,7 @@ const Members = () => {
               data-wow-duration="1000ms"
             >
               <h2>
-                Our <span>Planning Committee 2025</span>
+                Our <span>Speakers 2025</span>
               </h2>
             </div>
           </div>
