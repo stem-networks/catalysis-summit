@@ -123,7 +123,7 @@ const PreviousConference = async () => {
                                     Strengthened international collaborations across academia and industry.
                                 </li>
                                 <li>
-                                    Exchange of new ideas and research breakthroughs in <span>nanotechnology, nanomaterials, materials science, chemistry and chemical engineering</span>
+                                    Exchange of new ideas and research breakthroughs in <span>chemistry and chemical engineering, materials science, nanotechnology, nanomaterials</span>
                                 </li>
                                 <li>
                                     Recognition of outstanding contributions through speaker awards and best poster awards.
