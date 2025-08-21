@@ -6,10 +6,10 @@ import { ApiResponse } from '@/types';
 import { Metadata } from 'next';
 
 async function fetchGeneralData(): Promise<ApiResponse> {
-    const baseUrl = getBaseUrl();
-    const res = await fetch(`${baseUrl}/api/general`, { cache: "no-store" });
-    if (!res.ok) throw new Error("Failed to fetch general data");
-    return res.json();
+  const baseUrl = getBaseUrl();
+  const res = await fetch(`${baseUrl}/api/general`, { cache: "no-store" });
+  if (!res.ok) throw new Error("Failed to fetch general data");
+  return res.json();
 }
 
 async function fetchGeneralDataStatic(): Promise<ApiResponse> {
@@ -80,7 +80,7 @@ const page = async () => {
             </h2>
 
             {/* <!-- All Images  --> */}
-            <GalleryEvent generalInfo={general} />
+            <GalleryEvent generalInfo={general}/>
         </div>
     )
 }

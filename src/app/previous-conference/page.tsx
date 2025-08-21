@@ -101,7 +101,7 @@ const PreviousConference = async () => {
                                     <span>Global Participation:</span> Speakers and delegates from multiple countries joined the events, representing universities, research institutions, healthcare organizations, and industries.
                                 </li>
                                 <li>
-                                    <span>Distinguished Speakers:</span> Our keynote speakers delivered insightful presentations on cutting-edge topics in nanotechnology, and materials science.
+                                    <span>Distinguished Speakers:</span> Our keynote speakers delivered insightful presentations on cutting-edge topics in chemistry and chemical engineering.
                                 </li>
                                 <li>
                                     <span>Interactive Sessions:</span> {general_info?.clname} ({general_info?.csname}-2025) featured a mix of keynote lectures, plenary talks, oral presentations, poster sessions, and panel discussions, ensuring lively interactions and meaningful academic exchange.
@@ -134,7 +134,7 @@ const PreviousConference = async () => {
                             <p>We extend our sincere gratitude to the <span className='highlight-word'>distinguished speakers, session chairs, delegates, sponsors, and organizing committee members</span> for their invaluable contributions to the success of {general_info?.clname} ({general_info?.csname}-2025).</p>
 
                             <div className="heading Poster-heading">Looking Ahead</div>
-                            <p>Building on this success, we are excited to announce that the next editions of <span className='highlight-word'>{general_info?.clname}</span> will continue to provide a premier platform for advancing scientific innovation and fostering global collaboration. Details of upcoming conferences will be shared soon.</p>
+                            <p>Building on this success, we are excited to announce that the next edition of <span>{general_info?.clname} which is ({general_info?.csname} {general_info?.year} at {general_info?.venue_p1} during {general_info?.full_length_dates})</span> will continue to provide a premier platform for advancing scientific innovation and fostering global collaboration. </p>
                         </div>
                     </div>
                     {/* </div> */}
