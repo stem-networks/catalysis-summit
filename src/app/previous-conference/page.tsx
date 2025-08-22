@@ -104,7 +104,7 @@ const PreviousConference = async () => {
                                     <span>Global Participation:</span> Speakers and delegates from multiple countries joined the events, representing universities, research institutions, healthcare organizations, and industries.
                                 </li>
                                 <li>
-                                    <span>Distinguished Speakers:</span> Our keynote speakers delivered insightful presentations on cutting-edge topics in nanotechnology, and materials science.
+                                    <span>Distinguished Speakers:</span> Our keynote speakers delivered insightful presentations on cutting-edge topics in chemistry and chemical engineering.
                                 </li>
                                 <li>
                                     <span>Interactive Sessions:</span> {general_info?.clname} ({general_info?.csname}-2025) featured a mix of keynote lectures, plenary talks, oral presentations, poster sessions, and panel discussions, ensuring lively interactions and meaningful academic exchange.
