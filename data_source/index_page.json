@@ -82,54 +82,54 @@
     },
     "sessions": [
         {
-            "text": "1. Biomaterials",
-            "link": "biomaterials",
-            "session_short_name": "Biomaterials"
+            "text": "1. Chemistry",
+            "link": "chemistry",
+            "session_short_name": "Chemistry"
         },
         {
-            "text": "2.\tApplications for Biomedical Devices",
-            "link": "applications-for-biomedical-devices",
-            "session_short_name": "Applications for Biomedical Devices"
+            "text": "2. Catalysis in Green Chemistry",
+            "link": "catalysis-in-green-chemistry",
+            "session_short_name": "Catalysis in Green Chemistry"
         },
         {
-            "text": "3.\tMaterial for Textile",
-            "link": "material-for-textile",
-            "session_short_name": "Material for Textile"
+            "text": "3. Thermodynamics in Chemical Engineering",
+            "link": "thermodynamics-in-chemical-engineering",
+            "session_short_name": "Thermodynamics in Chemical Engineering"
         },
         {
-            "text": "4.\tDrug Delivery",
-            "link": "drug-delivery",
-            "session_short_name": "Drug Delivery"
+            "text": "4. Sustainable and Green Chemistry",
+            "link": "sustainable-and-green-chemistry",
+            "session_short_name": "Sustainable and Green Chemistry"
         },
         {
-            "text": "5.\tEmerging Materials for Energy Storage and Conversion",
-            "link": "emerging-materials-for-energy-storage-and-conversion",
-            "session_short_name": "Emerging Materials for Energy Storage and Conversion"
+            "text": "5. Polymer Chemistry",
+            "link": "polymer-chemistry",
+            "session_short_name": "Polymer Chemistry"
         },
         {
-            "text": "6. Material Recycling",
-            "link": "material-recycling",
-            "session_short_name": "Material Recycling"
+            "text": "6. Material Chemistry",
+            "link": "material-chemistry",
+            "session_short_name": "Material Chemistry"
         },
         {
-            "text": "7. Nano devices and Applications",
-            "link": "nano-devices-and-applications",
-            "session_short_name": "Nano devices and Applications"
+            "text": "7. Nanomaterials & Nanotechnology",
+            "link": "nanomaterials-and-nanotechnology",
+            "session_short_name": "Nanomaterials & Nanotechnology"
         },
         {
-            "text": "8.Mining and Metallurgy",
-            "link": "mining-and-metallurgy",
-            "session_short_name": "Mining and Metallurgy"
+            "text": "8. Separation Methods",
+            "link": "separation-methods",
+            "session_short_name": "Separation Methods"
         },
         {
-            "text": "9.\tInnovations in Surface Science",
-            "link": "innovations-in-surface-science-and-engineering",
-            "session_short_name": "Innovations in Surface Science and Engineering"
+            "text": "9. Petroleum and Petrochemicals Research",
+            "link": "petroleum-and-petrochemicals-research",
+            "session_short_name": "Petroleum and Petrochemicals Research"
         },
         {
-            "text": "10.\tAdvanced Semiconductor Materials",
-            "link": "advanced-semiconductor-materials",
-            "session_short_name": "Advanced Semiconductor Materials"
+            "text": "10. Reaction Engineering",
+            "link": "reaction-engineering",
+            "session_short_name": "Reaction Engineering"
         }
     ],
     "important_dates": [
