@@ -735,6 +735,9 @@ const AbstractSubmission: React.FC<GeneralInfoProps> = ({ generalInfo }) => {
     // ====== SUBMIT FORM ======
     setIsSubmitting(true);
 
+    const updatedData = { ...formAutoData, submit_status: "1" };
+    setFormAutoData(updatedData);
+
     try {
       // Upload file and get URL using sanitized project name
       const fileUrl = await uploadFile(
