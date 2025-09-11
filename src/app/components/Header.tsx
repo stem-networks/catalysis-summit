@@ -148,7 +148,7 @@ const Header: React.FC<HeaderProps> = ({ generalData, registerData }) => {
                 </Link>
               </div>
 
-              {/* <div className="venue-header-block">
+              <div className="venue-header-block">
                 {general.venue_p1 ? (
                   <div className="map_wrap156" style={{ textAlign: 'start' }}>
                     <Image
@@ -180,7 +180,7 @@ const Header: React.FC<HeaderProps> = ({ generalData, registerData }) => {
 
               <div className='approved-provider-block'>
                 <Image src="/images/images/cpd.jpg" alt="CPD Accredited Conference" className='approved-prov-img' title="CPD Accredited Conference" width={360} height={130} />
-              </div> */}
+              </div>
 
               <div className="img_text5">
                 <Link href="/register" title={general.clname}>
