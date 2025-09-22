@@ -11365,7 +11365,9 @@ input[text]:focus {
 
 /* some responsive of header  */
 @media screen and (max-width: 1100px) {
-	.venue-header-block {
+
+	.venue-header-block,
+	.approved-provider-block {
 		display: none;
 	}
 }
