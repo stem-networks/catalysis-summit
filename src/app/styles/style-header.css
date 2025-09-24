@@ -11447,7 +11447,7 @@ input[text]:focus {
 	position: relative;
 	z-index: 1;
 	margin-bottom: 20px;
-	padding-bottom: 13px;
+	padding-bottom: 11px;
 }
 
 .box_wrap_fot1 h4::before {
