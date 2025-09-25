@@ -66,7 +66,7 @@ const Venue = async () => {
             <div className="brand_wrap">
                 <div className="auto-container">
                     <div className="row">
-                        <div className="col-md-12">
+                        <div className="col-md-12 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
                             <Link href="/" title='Navigate to Homepage'>Home</Link> <i className="fa fa-angle-right"></i>
                             <span>Venue</span>
                         </div>
@@ -103,7 +103,7 @@ const Venue = async () => {
                                         })()}
 
 
-                                        <p className='venue-heading-p'><b>General Inquiries: </b>{general.cemail ? general.cemail : ''}</p>
+                                        <p className='venue-heading-p'><b>General Inquiries: </b><Link href={`mailto:${general?.cemail || ""}`} title={general?.cemail || ''}>{general?.cemail || ''}</Link></p>
 
 
                                         <div
@@ -126,7 +126,7 @@ const Venue = async () => {
 
                     {/* Venue Hotel images and map  */}
 
-                    <div className='hotel-map-block'>
+                    <div className="hotel-map-block wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1000ms">
                         <div className='venue-mapping-block'>
                             {/* <div className='venue-mapping-left-block'>
                                 <h3>Hotel Images</h3>
@@ -161,7 +161,7 @@ const Venue = async () => {
                         </div>
                     </div>
 
-                    <div className='Attractions-block'>
+                    <div className="Attractions-block wow fadeInUp" data-wow-delay="700ms" data-wow-duration="1000ms">
                         <h3>City Attractions</h3>
                         <SwiperGallery />
                     </div>
@@ -172,4 +172,4 @@ const Venue = async () => {
     )
 }
 
-export default Venue
+export default Venue 

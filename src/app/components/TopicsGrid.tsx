@@ -68,7 +68,7 @@ const TopicsGrid: React.FC<TopicsGridProps> = ({ topics, className = "topics-gri
                     return (
                         <div
                             key={index}
-                            className={`topic-item ${isActive ? "active" : ""}`}
+                            className={`topic-item wow fadeInUp ${isActive ? "active" : ""}`}
                         >
                             <Link
                                 href={topicPath}

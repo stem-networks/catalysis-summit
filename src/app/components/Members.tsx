@@ -85,7 +85,9 @@ const Speakers = () => {
                   {speakersData.map((member, index) => (
                     <div
                       key={index}
-                      className={`each-member-gap ${index >= 3 ? 'member-row-gap' : ''}`}
+                      className={`each-member-gap ${index >= 3 ? 'member-row-gap' : ''} wow fadeInUp`}
+                      data-wow-delay={`${200 + index * 150}ms`}
+                      data-wow-duration="1000ms"
                     >
                       <div className="grid-res-gap member-resp-gap">
                         <div className="grid-res-item">
@@ -112,7 +114,7 @@ const Speakers = () => {
             </div>
           </section>
 
-          {/* <div className='members-view-all-btn-block'>
+          {/* <div className="members-view-all-btn-block wow fadeInUp" data-wow-delay={`${200 + speakersData.length * 150}ms`} data-wow-duration="1000ms">
             <Link href='/committee' title="View All" className="view-more-speakers-btn">View All</Link>
           </div> */}
         </div>

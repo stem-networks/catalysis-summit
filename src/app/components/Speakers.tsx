@@ -101,10 +101,12 @@ const Members = () => {
               <div className="row-member row">
                 {membersData.map((speaker, index) => (
                   <div
-                    className={`col-lg-3 col-md-6 col-sm-6 mb-4 ${index < 4
+                    className={`col-lg-3 col-md-6 col-sm-6 mb-4 wow fadeInUp ${index < 4
                       ? 'members-specific-space'
                       : 'member-spacing'
                       }`}
+                    data-wow-delay={`${200 + index * 150}ms`}
+                    data-wow-duration="1000ms"
                     key={index}
                   >
                     <div className="card text-center p-3 border">
@@ -132,7 +134,7 @@ const Members = () => {
             </div>
           </div>
 
-          {/* <div className="members-view-all-btn-block">
+          {/* <div className="members-view-all-btn-block wow fadeInUp" data-wow-delay={`${200 + membersData.length * 150}ms`} data-wow-duration="1000ms">
             <Link
               href="/committee"
               title="View All"

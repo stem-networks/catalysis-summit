@@ -68,7 +68,7 @@ const PreviousConference = async () => {
             <div className="brand_wrap">
                 <div className="auto-container">
                     <div className="row">
-                        <div className="col-md-12">
+                        <div className="col-md-12 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
                             <Link href="/">Home</Link> <i className="fa fa-angle-right"></i>
                             <span>Previous Conference</span>
                         </div>
@@ -89,14 +89,14 @@ const PreviousConference = async () => {
                     <TabSlider />
 
 
-                    <div className="overview-content-block">
+                    <div className="overview-content-block wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1000ms">
                         <h2 className="overview-heading">Previous Conference Report</h2>
                         {/* <h3 className="overview-subhead">A Journey of Innovation, Collaboration, and Excellence</h3> */}
                         <p><Link href="/" title={general_info?.clname}>{general_info?.clname} ({general_info?.csname}-2025)</Link> was successfully organized on <span>August 06–07, 2025, in Singapore,</span> bringing together global leaders, researchers, academicians, and industry experts for two days of knowledge-sharing and collaboration.</p>
 
                     </div>
                     <div className="auto-container">
-                        <div className="content1">
+                        <div className="content1 wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1000ms">
 
                             <div className="heading Poster-heading">Highlights of the Conference</div>
                             <ul>
@@ -104,7 +104,7 @@ const PreviousConference = async () => {
                                     <span>Global Participation:</span> Speakers and delegates from multiple countries joined the events, representing universities, research institutions, healthcare organizations, and industries.
                                 </li>
                                 <li>
-                                    <span>Distinguished Speakers:</span> Our keynote speakers delivered insightful presentations on cutting-edge topics in chemistry and chemical engineering.
+                                    <span>Distinguished Speakers:</span> Our keynote speakers delivered insightful presentations on cutting-edge topics in nanotechnology, and materials science.
                                 </li>
                                 <li>
                                     <span>Interactive Sessions:</span> {general_info?.clname} ({general_info?.csname}-2025) featured a mix of keynote lectures, plenary talks, oral presentations, poster sessions, and panel discussions, ensuring lively interactions and meaningful academic exchange.

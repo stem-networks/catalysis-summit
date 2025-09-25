@@ -86,7 +86,7 @@ const ListOfTopics = async () => {
             <div className="brand_wrap">
                 <div className="auto-container">
                     <div className="row">
-                        <div className="col-md-12">
+                        <div className="col-md-12 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
                             <Link href="/" title="Navigate to Homepage">Home</Link> <i className="fa fa-angle-right"></i>
                             <span>List of Topics</span>
                         </div>
