@@ -419,7 +419,7 @@ const HeroSlider: React.FC<BannerSectionProps> = ({
                         <div className="hero-flex-content">
                             <h2 className="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms"
                                 dangerouslySetInnerHTML={{ __html: headding || "" }} />
-                            <div>
+                            <div className="download-brochure-btn-block">
                                 <button className="download-brochure-btn wow zoomIn" data-wow-delay="400ms" data-wow-duration="1000ms" title={`${general?.clogotext}_Brochure`}
                                     onClick={() => openBrochureModal('brochure')}>Download Brochure</button>
                             </div>

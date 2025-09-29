@@ -11573,32 +11573,31 @@ input[text]:focus {
 	align-items: center;
 	display: grid;
 	gap: 20px;
-
 }
 
 .hero-conference-section .hero-conference-content {
 	margin: 0px 0 50px;
 }
 
-.hero-date-card {
+.hero-conference-section .hero-date-card {
 	text-align: right;
 	background: none;
 }
 
-.hero-shortname {
+.hero-conference-section .hero-shortname {
 	color: var(--primary-color);
 	font-size: 40px;
 	font-weight: 500;
 }
 
-.hero-date span {
+.hero-conference-section .hero-date span {
 	color: var(--fifth-color);
 	margin-top: 14px;
 	font-size: 24px;
 	font-weight: 600;
 }
 
-.hero-venue {
+.hero-conference-section .hero-venue {
 	color: var(--fifth-color);
 	margin-top: 14px;
 	font-size: 24px;
@@ -11663,6 +11662,10 @@ input[text]:focus {
 	.hero-conference-section .hero-conference-content h2 {
 		font-size: 38px;
 	}
+
+	.download-brochure-btn {
+		font-size: 18px;
+	}
 }
 
 @media screen and (min-width:992px) and (max-width:1100px) {
@@ -11677,8 +11680,13 @@ input[text]:focus {
 		justify-items: center;
 	}
 
-	.hero-date-card {
+	.hero-conference-section .hero-date-card {
 		text-align: center;
+		order: 1;
+	}
+
+	.hero-conference-section .download-brochure-btn-block {
+		order: 2;
 	}
 
 	/* .hero-conference-section .hero-conference-content {
@@ -11699,8 +11707,13 @@ input[text]:focus {
 		justify-items: center;
 	}
 
-	.hero-date-card {
+	.hero-conference-section .hero-date-card {
 		text-align: center;
+		order: 1;
+	}
+
+	.download-brochure-btn-block {
+		order: 2;
 	}
 
 	.hero-conference-section .hero-conference-content {
@@ -11712,6 +11725,7 @@ input[text]:focus {
 
 	.hero-conference-section .hero-conference-content h2 {
 		font-size: 28px;
+		text-align: center;
 	}
 
 	.hero-conference-section .hero-flex-content {
@@ -11720,8 +11734,13 @@ input[text]:focus {
 		justify-items: center;
 	}
 
-	.hero-date-card {
+	.hero-conference-section .hero-date-card {
 		text-align: center;
+		order: 1;
+	}
+
+	.download-brochure-btn-block {
+		order: 2;
 	}
 
 	.hero-conference-section .hero-conference-content {
@@ -11747,8 +11766,13 @@ input[text]:focus {
 		justify-items: center;
 	}
 
-	.hero-date-card {
+	.hero-conference-section .hero-date-card {
 		text-align: center;
+		order: 1;
+	}
+
+	.download-brochure-btn-block {
+		order: 2;
 	}
 
 	.hero-conference-section .hero-conference-content {
@@ -11774,17 +11798,22 @@ input[text]:focus {
 		justify-items: center;
 	}
 
-	.hero-date-card {
+	.hero-conference-section .hero-date-card {
 		text-align: center;
+		order: 1;
+	}
+
+	.download-brochure-btn-block {
+		order: 2;
 	}
 
 	.hero-conference-section .hero-conference-content {
 		margin: 0px 0 10px;
 	}
 
-	.download-brochure-btn {
-		padding: 10px 24px;
-		font-size: 16px;
+	.hero-conference-section .hero-triangle-shape {
+		clip-path: polygon(0% 0%, 100% 0%, 100% 6%, 0% 26%);
+		height: 35px;
 	}
 }
 
@@ -11807,17 +11836,22 @@ input[text]:focus {
 		justify-items: center;
 	}
 
-	.hero-date-card {
+	.hero-conference-section .hero-date-card {
 		text-align: center;
+		order: 1;
+	}
+
+	.download-brochure-btn-block {
+		order: 2;
 	}
 
 	.hero-conference-section .hero-conference-content {
 		margin: 0px 0 10px;
 	}
 
-	.download-brochure-btn {
-		padding: 10px 24px;
-		font-size: 16px;
+	.hero-conference-section .hero-triangle-shape {
+		clip-path: polygon(0% 0%, 100% 0%, 100% 6%, 0% 26%);
+		height: 35px;
 	}
 }
 
@@ -11840,16 +11874,21 @@ input[text]:focus {
 		justify-items: center;
 	}
 
-	.hero-date-card {
+	.hero-conference-section .hero-date-card {
 		text-align: center;
+		order: 1;
+	}
+
+	.download-brochure-btn-block {
+		order: 2;
 	}
 
 	.hero-conference-section .hero-conference-content {
 		margin: 0px 0 10px;
 	}
 
-	.download-brochure-btn {
-		padding: 10px 24px;
-		font-size: 16px;
+	.hero-conference-section .hero-triangle-shape {
+		clip-path: polygon(0% 0%, 100% 0%, 100% 6%, 0% 26%);
+		height: 35px;
 	}
 }
