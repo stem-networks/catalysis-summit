@@ -17,22 +17,22 @@
         },
         "Be_A_Volunteer": {
             "category": "Be_A_Volunteer",
-            "content": "Would you like to be a part of an energetic team leading in material science? Be a Material Science Conference volunteer! Help and connections will empower your future, and contribute to shaping the future of material science. Join us for an enduring mark on the technologies of tomorrow.",
+            "content": "Get involved in the <b>Chemistry & Chemical Engineering Conference 2026</b> action! Volunteers gain special entry to the sessions, hands-on activities, and the chance to connect with leading scientists and experts from across the globe.",
             "headding": "Be A Volunteer"
         },
         "Submit_Your_Abstract": {
             "category": "Submit_Your_Abstract",
-            "content": "Submit your abstract to MSNC 2026 and share your research in Chemistry and Chemical Engineering Conference and Chemistry and Chemical Engineering Conference. Contribute to shaping the future of the industry.",
+            "content": "Submit your abstract and take the opportunity to share your research, connect with experts from around the world, and showcase your innovations on a global stage.",
             "headding": "Submit Your Abstract"
         },
         "sessions": {
             "category": "sessions",
-            "content": "Come experience what our leading scientists are presenting covering new frontier areas including Chemistry and Chemical Engineering Conference, smart materials, and sustainable solutions. This endeavour proposes to interface with the pertinent Questions defining the contours of Material Science.",
+            "content": "Discover the latest advances in chemistry and chemical engineering, share ideas with international leaders, and gain insights that are shaping the future of innovation.",
             "headding": "Sessions"
         },
         "footer_content": {
             "category": "footer_content",
-            "content": "Welcome to our Chemistry and Chemical Engineering Conference (MSNC)-2026, where dedicated professionals accumulate to discover the ultra-modern advancements and high-quality practices in healthcare.",
+            "content": "The MSNC-2026 conference is where you can find out about the future of chemistry and chemical engineering—meet visionary scientists, uncover ground-breaking ideas, and get the inspiration to lead the innovations of the future.",
             "headding": "Footer content"
         },
         "offers_content": {
@@ -72,7 +72,7 @@
         "9": {
             "banner_conent_id": "9",
             "image": "images/banner.jpg",
-            "headding": "Pioneering Advances in Chemistry and Chemical Engineering",
+            "headding": "Exploring New Frontiers in Chemistry and Chemical Engineering",
             "tag_line": "MSNC-April 16-17, 2026 in Barcelona, Spain",
             "content": "Join the world's most in-demand Chemistry and Chemical Engineering Conference experts at the <b>Chemistry and Chemical Engineering Conference</b>. Learn keynote sessions, speaker insights, and innovation. <b>Download our brochure</b> to see what's more about this conference and book your place now!",
             "page": "index",
