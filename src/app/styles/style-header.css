@@ -11541,3 +11541,315 @@ input[text]:focus {
 		text-align: left;
 	}
 }
+
+/* HeroSlider Section  */
+.hero-conference-section {
+	/* text-align: center; */
+	overflow: hidden;
+}
+
+.hero-conference-section .hero-conference-image {
+	padding: 0;
+	margin: 0;
+}
+
+.hero-conference-section .hero-conference-image img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+/* Triangle Shape */
+.hero-conference-section .hero-triangle-shape {
+	background: var(--primary-color);
+	clip-path: polygon(0% 0%, 100% 0%, 100% 6%, 0% 41%);
+	width: 100%;
+	margin-top: -2px;
+	height: 60px;
+}
+
+.hero-conference-section .hero-flex-content {
+	grid-template-columns: 7fr 2.5fr 2.5fr;
+	align-items: center;
+	display: grid;
+	gap: 20px;
+
+}
+
+.hero-conference-section .hero-conference-content {
+	margin: 0px 0 50px;
+}
+
+.hero-date-card {
+	text-align: right;
+	background: none;
+}
+
+.hero-shortname {
+	color: var(--primary-color);
+	font-size: 40px;
+	font-weight: 500;
+}
+
+.hero-date span {
+	color: var(--fifth-color);
+	margin-top: 14px;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.hero-venue {
+	color: var(--fifth-color);
+	margin-top: 14px;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.hero-conference-section .hero-conference-content h2 {
+	color: var(--fifth-color);
+	margin: 0;
+	font-size: 45px;
+	font-weight: 600;
+}
+
+
+/* Download button */
+.download-brochure-btn {
+	color: var(--white-color);
+	cursor: pointer;
+	background: var(--fifth-color);
+	border: transparent !important;
+	border-radius: 28px;
+	padding: 12px 30px;
+	font-size: 20px;
+	/* font-weight: 600; */
+	position: relative;
+	/* text-transform: uppercase; */
+	overflow: hidden;
+	z-index: 1;
+	transition: color 0.3s ease;
+	box-shadow: 0 4px 0 var(--primary-color);
+	/* bottom shadow */
+}
+
+/* overlay animation */
+.download-brochure-btn::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-radius: 28px;
+	background: var(--primary-color);
+	/* primary blue */
+	z-index: -1;
+	transform: scaleY(0);
+	transform-origin: bottom;
+	transition: transform 0.3s ease-out;
+}
+
+/* hover state */
+.download-brochure-btn:hover {
+	color: var(--white-color);
+}
+
+.download-brochure-btn:hover::before {
+	transform: scaleY(1);
+}
+
+@media screen and (min-width:1101px) and (max-width:1230px) {
+
+	.hero-conference-section .hero-conference-content h2 {
+		font-size: 38px;
+	}
+}
+
+@media screen and (min-width:992px) and (max-width:1100px) {
+
+	.hero-conference-section .hero-conference-content h2 {
+		font-size: 35px;
+	}
+
+	.hero-conference-section .hero-flex-content {
+		grid-template-columns: 1fr;
+		align-items: center;
+		justify-items: center;
+	}
+
+	.hero-date-card {
+		text-align: center;
+	}
+
+	/* .hero-conference-section .hero-conference-content {
+		margin: 0px 0 10px;
+	} */
+}
+
+@media screen and (min-width:900px) and (max-width:991px) {
+
+	.hero-conference-section .hero-conference-content h2 {
+		font-size: 35px;
+		text-align: center;
+	}
+
+	.hero-conference-section .hero-flex-content {
+		grid-template-columns: 1fr;
+		align-items: center;
+		justify-items: center;
+	}
+
+	.hero-date-card {
+		text-align: center;
+	}
+
+	.hero-conference-section .hero-conference-content {
+		margin: 0px 0 10px;
+	}
+}
+
+@media screen and (min-width:710px) and (max-width:899px) {
+
+	.hero-conference-section .hero-conference-content h2 {
+		font-size: 28px;
+	}
+
+	.hero-conference-section .hero-flex-content {
+		grid-template-columns: 1fr;
+		align-items: center;
+		justify-items: center;
+	}
+
+	.hero-date-card {
+		text-align: center;
+	}
+
+	.hero-conference-section .hero-conference-content {
+		margin: 0px 0 10px;
+	}
+}
+
+@media screen and (min-width:576px) and (max-width:709px) {
+
+	.hero-conference-section .hero-conference-content h2 {
+		font-size: 27px;
+		text-align: center;
+	}
+
+	.download-brochure-btn {
+		padding: 10px 24px;
+		font-size: 16px;
+	}
+
+	.hero-conference-section .hero-flex-content {
+		grid-template-columns: 1fr;
+		align-items: center;
+		justify-items: center;
+	}
+
+	.hero-date-card {
+		text-align: center;
+	}
+
+	.hero-conference-section .hero-conference-content {
+		margin: 0px 0 10px;
+	}
+}
+
+@media screen and (min-width:425px) and (max-width:575px) {
+
+	.hero-conference-section .hero-conference-content h2 {
+		font-size: 27px;
+		text-align: center;
+	}
+
+	.download-brochure-btn {
+		padding: 10px 24px;
+		font-size: 16px;
+	}
+
+	.hero-conference-section .hero-flex-content {
+		grid-template-columns: 1fr;
+		align-items: center;
+		justify-items: center;
+	}
+
+	.hero-date-card {
+		text-align: center;
+	}
+
+	.hero-conference-section .hero-conference-content {
+		margin: 0px 0 10px;
+	}
+
+	.download-brochure-btn {
+		padding: 10px 24px;
+		font-size: 16px;
+	}
+}
+
+@media screen and (min-width:375px) and (max-width:424px) {
+
+	.hero-conference-section .hero-conference-content h2 {
+		font-size: 27px;
+		line-height: 1.5em;
+		text-align: center;
+	}
+
+	.download-brochure-btn {
+		padding: 10px 24px;
+		font-size: 16px;
+	}
+
+	.hero-conference-section .hero-flex-content {
+		grid-template-columns: 1fr;
+		align-items: center;
+		justify-items: center;
+	}
+
+	.hero-date-card {
+		text-align: center;
+	}
+
+	.hero-conference-section .hero-conference-content {
+		margin: 0px 0 10px;
+	}
+
+	.download-brochure-btn {
+		padding: 10px 24px;
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width:374px) {
+
+	.hero-conference-section .hero-conference-content h2 {
+		font-size: 27px;
+		line-height: 1.5em;
+		text-align: center;
+	}
+
+	.download-brochure-btn {
+		padding: 10px 24px;
+		font-size: 16px;
+	}
+
+	.hero-conference-section .hero-flex-content {
+		grid-template-columns: 1fr;
+		align-items: center;
+		justify-items: center;
+	}
+
+	.hero-date-card {
+		text-align: center;
+	}
+
+	.hero-conference-section .hero-conference-content {
+		margin: 0px 0 10px;
+	}
+
+	.download-brochure-btn {
+		padding: 10px 24px;
+		font-size: 16px;
+	}
+}
