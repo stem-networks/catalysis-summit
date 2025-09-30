@@ -8848,7 +8848,7 @@ li {
 }
 
 .members-main-block h2 {
-	color: var(--fourth-color) !important;
+	color: var(--secondary-color) !important;
 	line-height: 1.6em;
 }
 
@@ -8876,8 +8876,7 @@ li {
 }
 
 .members-main-block .blog .member-country {
-	border-bottom: 1px solid var(--fourth-color);
-	;
+	border-bottom: 1px solid var(--secondary-color);
 	padding-bottom: 5px;
 }
 
@@ -9431,7 +9430,7 @@ input[type="radio"] {
 
 /* When radio is checked */
 input[type="radio"]:checked {
-	background-color: var(--primary-color);
+	background-color: var(--secondary-color);
 	/* Change color when selected */
 	border-color: var(--white-color);
 	/* Change border color */
@@ -9443,7 +9442,7 @@ input[type="radio"]::before {
 	width: 10px;
 	/* Size of the inner dot */
 	height: 10px;
-	background-color: var(--primary-color);
+	background-color: var(--secondary-color);
 	border-color: 1px solid var(--white-color);
 	/* Inner dot color */
 	border-radius: 50%;
@@ -9541,7 +9540,7 @@ input[text]:focus {
 
 .marquee-wrapper .marquee-item i {
 	font-size: 17px;
-	color: var(--primary-color);
+	color: var(--secondary-color);
 	margin-right: 5px;
 }
 
@@ -11396,7 +11395,7 @@ input[text]:focus {
 	width: 100%;
 	height: 100%;
 	border-radius: 100px;
-	background: var(--primary-color);
+	background: var(--secondary-color);
 	opacity: 0.06;
 	transform: scale(0);
 	transition: all 0.4s ease;
@@ -11467,7 +11466,7 @@ input[text]:focus {
 	z-index: -1;
 	width: 30px;
 	height: 2px;
-	background-color: var(--primary-color);
+	background-color: var(--secondary-color);
 	bottom: 0;
 	left: 18px;
 }
@@ -11585,7 +11584,7 @@ input[text]:focus {
 }
 
 .hero-conference-section .hero-shortname {
-	color: var(--primary-color);
+	color: var(--secondary-color);
 	font-size: 40px;
 	font-weight: 500;
 }
@@ -11616,7 +11615,7 @@ input[text]:focus {
 .download-brochure-btn {
 	color: var(--white-color);
 	cursor: pointer;
-	background: var(--fifth-color);
+	background: var(--secondary-color);
 	border: transparent !important;
 	border-radius: 28px;
 	padding: 12px 30px;
