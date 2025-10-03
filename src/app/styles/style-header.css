@@ -629,7 +629,7 @@ li {
 }
 
 .sticky-header .logo {
-	padding: 6px 0px 2px;
+	padding: 12px 0px 2px;
 	max-width: 125px;
 }
 
@@ -11370,6 +11370,12 @@ input[text]:focus {
 		display: none;
 	}
 }
+@media screen and (max-width: 1199px) {
+
+	.venue-header-block {
+		display: none;
+	}
+}
 
 /* Footer Social Links  */
 .followus a {
@@ -11890,4 +11896,8 @@ input[text]:focus {
 		clip-path: polygon(0% 0%, 100% 0%, 100% 6%, 0% 26%);
 		height: 35px;
 	}
+}
+
+.map_wrap156 span{
+	font-size: 17px;
 }
