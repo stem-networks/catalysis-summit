@@ -901,7 +901,7 @@ li {
 	padding: 0px;
 	z-index: 100;
 	display: none;
-	background: #012f5d;
+	background: var(--primary-color);
 	border-top: 3px solid #fc6d11;
 	transition: all 500ms ease;
 	-moz-transition: all 500ms ease;
@@ -939,7 +939,7 @@ li {
 	padding: 12px 15px;
 	line-height: 22px;
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 16px;
 	text-transform: capitalize;
 	color: #ffffff;
 	transition: all 500ms ease;
@@ -950,7 +950,7 @@ li {
 }
 
 .main-menu .navigation>li>ul>li:hover>a {
-	background: #fc6d11;
+	background: var(--secondary-color);
 }
 
 .main-menu .navigation>li>ul>li.dropdown>a:after {
@@ -8832,6 +8832,7 @@ li {
 
 .members-main-block {
 	background-color: var(--primary-color);
+	margin-top: 40px;
 }
 
 .members-main-block .blog {
@@ -9376,18 +9377,18 @@ li {
 
 /* Members View All button */
 .members-view-all-btn-block .view-more-speakers-btn {
-	background-color: var(--fourth-color);
+	background-color: var(--secondary-color);
 	padding: 13px 37px 14px;
 	font-size: 19px;
 	color: #fff;
 	border-radius: 25px;
-	border: 1px solid var(--fourth-color);
+	border: 1px solid var(--secondary-color);
 }
 
 .members-view-all-btn-block .view-more-speakers-btn:hover {
-	color: var(--primary-color);
+	color: var(--secondary-color);
 	background-color: #fff;
-	border: 1px solid var(--primary-color);
+	border: 1px solid var(--secondary-color);
 }
 
 /* Scientif Program Page  */
@@ -11370,6 +11371,7 @@ input[text]:focus {
 		display: none;
 	}
 }
+
 @media screen and (max-width: 1199px) {
 
 	.venue-header-block {
@@ -11898,6 +11900,6 @@ input[text]:focus {
 	}
 }
 
-.map_wrap156 span{
+.map_wrap156 span {
 	font-size: 17px;
 }

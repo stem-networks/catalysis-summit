@@ -138,14 +138,14 @@ const Home = async () => {
       /> */}
       <HeroSlider generalbannerInfo={general}
         onelinerBannerInfo={indexPageData} />
-      <Members />
+      <Speakers />
       <SessionsComponent
         generalInfo={general_info}
         sessions={sessions}
         sessionContent={sessionContent}
       />
       <MainSlider generalInfo={general} registerInfo={registerData} />
-      <Speakers />
+      <Members />
       <ImportantDates onelinerInfo={indexPageData} />
       <FaqsMain commonInfo={commonContent} />
       <Venue onelinerVenueInfo={indexPageData} />

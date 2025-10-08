@@ -17,70 +17,133 @@ interface Speaker {
 const speakersData: Speaker[] = [
     {
         id: 1,
-        image: "/images/speakers-2026/Dae_Dong_Sung.jpg",
-        name: "Dae Dong Sung",
-        institution: "Korea University Sejong Campus",
-        country: "South Korea",
-        altText: "Dae Dong Sung",
+        image: "/images/images/Lumin_Wang.png",
+        name: "Lumin Wang",
+        institution: "University of Michigan",
+        country: "USA",
+        altText: "Lumin Wang",
     },
     {
         id: 2,
-        image: "/images/speakers-2026/Jean_Marie_Dubois.jpg",
-        name: "Jean-Marie Dubois",
-        institution: "University of Lorraine",
-        country: "France",
-        altText: "Jean-Marie Dubois",
+        image: "/images/images/Thomas_Fassler.jpg",
+        name: "Thomas Fassler",
+        institution: "Technical University of Munich",
+        country: "Germany",
+        altText: "Thomas Fassler",
     },
     {
         id: 3,
-        image: "/images/speakers-2026/Alireza_Heidari.jpg",
-        name: "Alireza Heidari",
-        institution: "California South University",
-        country: "USA",
-        altText: "Alireza Heidari",
+        image: "/images/images/Muhammet_S_Toprak.png",
+        name: "Muhammet S. Toprak",
+        institution: "KTH Royal Institute of Technology",
+        country: "Sweden",
+        altText: "Muhammet S. Toprak",
     },
     {
         id: 4,
-        image: "/images/speakers-2026/Janez_Trontelj.jpg",
-        name: "Janez Trontelj",
-        institution: "University of Ljubljana",
-        country: "Slovenia",
-        altText: "Janez Trontelj",
+        image: "/images/images/changquan_Lai.jpg",
+        name: "Changquan Lai",
+        institution: "Nanyang Technological University (NTU)",
+        country: "Singapore",
+        altText: "Changquan Lai",
     },
     {
         id: 5,
-        image: "/images/speakers-2026/Teresa_Vieira.jpeg",
-        name: "Teresa Vieira",
-        institution: "University of Coimbra",
-        country: "Portugal",
-        altText: "Teresa Vieira",
+        image: "/images/images/Ankur_Sood.jpg",
+        name: "Ankur Sood",
+        institution: "Yeungnam University",
+        country: "South Korea",
+        altText: "Ankur Sood",
     },
     {
         id: 6,
-        image: "/images/speakers-2026/Wenbin_Hou.jpg",
-        name: "Wenbin Hou",
-        institution: "Dalian University of Technology",
-        country: "China",
-        altText: "Wenbin Hou",
+        image: "/images/images/Sumanta_Sahoo.jpg",
+        name: "Sumanta Sahoo",
+        institution: "Yeungnam University",
+        country: "South Korea",
+        altText: "Sumanta Sahoo",
     },
     {
         id: 7,
-        image: "/images/speakers-2026/Leonard_Mwaikambo.jpg",
+        image: "/images/images/Tungyang_Chen.jpg",
+        name: "Tungyang Chen",
+        institution: "National Cheng Kung University",
+        country: "Taiwan",
+        altText: "Tungyang Chen",
+    },
+    {
+        id: 8,
+        image: "/images/images/Yang_Wei_Lin.jpg",
+        name: "Yang-Wei Lin",
+        institution: "National Changhua University of Education",
+        country: "Taiwan",
+        altText: "Yang-Wei Lin",
+    },
+    {
+        id: 9,
+        image: "/images/images/Xiaolong_Wang.png",
+        name: "Xiaolong Wang",
+        institution: "Lanzhou Institute of Physics, Chinese Academy of Sciences",
+        country: "China",
+        altText: "Xiaolong Wang",
+    },
+    {
+        id: 10,
+        image: "/images/images/Guojiang_Wan.png",
+        name: "Guojiang Wan",
+        institution: "Southwest Jiaotong University",
+        country: "China",
+        altText: "Guojiang Wan",
+    },
+    {
+        id: 11,
+        image: "/images/images/Hu_Yi.jpg",
+        name: "Hu Yi",
+        institution: "The Hong Kong Polytechnic University",
+        country: "China",
+        altText: "Hu Yi",
+    },
+    {
+        id: 12,
+        image: "/images/images/Syazwani_Mohd_Zaki.jpg",
+        name: "Syazwani Mohd Zaki",
+        institution: "International Islamic University Malaysia (IIUM)",
+        country: "Malaysia",
+        altText: "Syazwani Mohd Zaki",
+    },
+    {
+        id: 13,
+        image: "/images/images/Leelakrishna_Reddy.jpg",
+        name: "Leelakrishna Reddy",
+        institution: "University of Johannesburg",
+        country: "South Africa",
+        altText: "Leelakrishna Reddy",
+    },
+    {
+        id: 14,
+        image: "/images/images/Karthikeyani_Anbukumaran.png",
+        name: "Karthikeyani Anbukumaran",
+        institution: "Guru Nanak College, University of Madras",
+        country: "India",
+        altText: "Karthikeyani Anbukumaran",
+    },
+    {
+        id: 15,
+        image: "/images/images/Ashok_Mahajan.jpg",
+        name: "Ashok Mahajan",
+        institution: "Swami Ramanand Teerth Marathwada University",
+        country: "India",
+        altText: "Ashok Mahajan",
+    },
+    {
+        id: 16,
+        image: "/images/images/Leonard_Mwaikambo.png",
         name: "Leonard Mwaikambo",
         institution: "University of Dar es Salaam",
         country: "Tanzania",
         altText: "Leonard Mwaikambo",
     },
-    {
-        id: 8,
-        image: "/images/speakers-2026/Parvin_Abachi.jpeg",
-        name: "Parvin Abachi",
-        institution: "Sharif University of Technology",
-        country: "Iran",
-        altText: "Parvin Abachi",
-    },
 ];
-
 
 async function fetchGeneralDataStatic(): Promise<ApiResponse> {
     const baseUrl = getBaseUrl();
@@ -103,7 +166,7 @@ export async function generateMetadata(): Promise<Metadata> {
 
         // Canonical
         // const baseUrl = process.env.BASE_URL || "";
-        const canonicalPath = "/speakers"; // hardcode since we know this is sessions page
+        const canonicalPath = "/speakers-2025"; // hardcode since we know this is sessions page
         const canonicalURL = `${getBaseUrl()}${canonicalPath}`;
 
         return {
@@ -125,7 +188,7 @@ export async function generateMetadata(): Promise<Metadata> {
     }
 }
 
-const speakers = () => {
+const PreviousSpeakers = () => {
     return (
         <div>
 
@@ -140,7 +203,7 @@ const speakers = () => {
                 </div>
             </div>
 
-            <h2 className="abs_wrap5 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">Our Speakers 2026</h2>
+            <h2 className="abs_wrap5 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">Our Speakers 2025</h2>
 
             <div className="speakers-sections members-main-block">
                 <div className='auto-container'>
@@ -200,4 +263,4 @@ const speakers = () => {
     )
 }
 
-export default speakers
+export default PreviousSpeakers

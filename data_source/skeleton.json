@@ -145,7 +145,17 @@
     },
     {
       "title": "Previous Conference",
-      "link": "/previous-conference"
+      "link": "/previous-conference",
+      "subItems": [
+        {
+          "title": "2025 Conference Report",
+          "link": "/previous-conference"
+        },
+        {
+          "title": "Materials-2025 Speakers",
+          "link": "/speakers-2025"
+        }
+      ]
     },
     {
       "title": "Guidelines",
