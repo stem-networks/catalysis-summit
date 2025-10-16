@@ -119,7 +119,7 @@ const MediaCollaborators = () => {
                         <li className="slideimg">
                             <Link href="https://eventsnotification.com/" title="Events Notification" target="_blank">
                                 <Image
-                                    src="/images/media-collaborators/events_notificatiopn.webp"
+                                    src="/images/media-collaborators/events_notification.webp"
                                     alt="Events Notification"
                                     title="Events Notification"
                                     width={180}
