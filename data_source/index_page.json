@@ -1,44 +1,24 @@
 {
     "oneliner": {
-        "download_brochure": {
-            "category": "download_brochure",
-            "content": "Join us for an unparalleled networking experience – register now to connect with industry professionals and leaders!",
-            "headding": "Download Brochure"
-        },
-        "important_dates": {
-            "category": "important_dates",
-            "content": "Stay ahead by marking your calendars with these crucial deadlines for the upcoming MSNC-2026. Timely registration and submissions will ensure you make the most of this premier event.",
-            "headding": "Important dates"
-        },
-        "Explore_Our_Comprehensive_Networking_Services": {
-            "category": "Explore_Our_Comprehensive_Networking_Services",
-            "content": "Unlock new opportunities and build valuable connections with our comprehensive networking services, tailored to enhance your conference experience.",
-            "headding": "Explore Our comprehensive Networking Services"
-        },
-        "Be_A_Volunteer": {
-            "category": "Be_A_Volunteer",
-            "content": "Get involved in the <b>Chemistry & Chemical Engineering Conference 2026</b> action! Volunteers gain special entry to the sessions, hands-on activities, and the chance to connect with leading scientists and experts from across the globe.",
-            "headding": "Be A Volunteer"
+        "sessions": {
+            "category": "sessions",
+            "content": "Our conference sessions are meticulously curated to offer you a comprehensive and engaging experience. Join us to explore advanced research, novel chemical techniques, and emerging trends in Catalysis.",
+            "headding": "Sessions"
         },
         "Submit_Your_Abstract": {
             "category": "Submit_Your_Abstract",
-            "content": "Submit your abstract and take the opportunity to share your research, connect with experts from around the world, and showcase your innovations on a global stage.",
+            "content": "Elevate Your Research Globally by joining MNNC-2026. Share your research with experts and shape the future with advancements. Submit your abstract and make an impact!",
             "headding": "Submit Your Abstract"
         },
-        "sessions": {
-            "category": "sessions",
-            "content": "Discover the latest advances in chemistry and chemical engineering, share ideas with international leaders, and gain insights that are shaping the future of innovation.",
-            "headding": "Sessions"
-        },
-        "footer_content": {
-            "category": "footer_content",
-            "content": "The MSNC-2026 conference is where you can find out about the future of chemistry and chemical engineering—meet visionary scientists, uncover ground-breaking ideas, and get the inspiration to lead the innovations of the future.",
-            "headding": "Footer content"
+        "Be_A_Volunteer": {
+            "category": "Be_A_Volunteer",
+            "content": "<b>Become a Volunteer at Our Conference – Make an Impact!</b> <br/>Join our team as a volunteer at the upcoming conference. Gain experience, create connections with professionals on the highest level, and add value to international success. Apply now and help us create a memorable event!",
+            "headding": "Be A Volunteer"
         },
         "offers_content": {
             "1": {
                 "category": "offers_content",
-                "content": "<div class=\"col-md-12 wow fadeInUp animated\" data-wow-delay=\"200ms\" data-wow-duration=\"1000ms\" style=\"visibility: visible; animation-duration: 1000ms; animation-delay: 200ms; animation-name: fadeInUp;\">\r\n          <h2>Book by Sep. 2024 &amp; Save $1651!</h2>\r\n          <h3>BRING A COLLEAGUE SAVE $200 TOTAL, BRING MORE, SAVE MORE</h3>\r\n          <a href=\"/register\">Register now</a>\r\n        </div>",
+                "content": "<div class=\"col-md-12 wow fadeInUp animated\" data-wow-delay=\"200ms\" data-wow-duration=\"1000ms\" style=\"visibility: visible; animation-duration: 1000ms; animation-delay: 200ms; animation-name: fadeInUp;\">\n          <h2>Book by MAY. 2023 &amp; Save $1651!</h2>\n          <h3>BRING A COLLEAGUE SAVE $200 TOTAL, BRING MORE, SAVE MORE</h3>\n          <a href=\"/register\">Register now</a>\n        </div>",
                 "headding": "Offers Content"
             },
             "2": {
@@ -58,78 +38,113 @@
             },
             "5": {
                 "category": "offers_content",
-                "content": "<div class=\"col-md-12 wow fadeInUp animated\" data-wow-delay=\"200ms\" data-wow-duration=\"1000ms\" style=\"visibility: visible; animation-duration: 1000ms; animation-delay: 200ms; animation-name: fadeInUp;\">\r\n          <h2>Book by Nov 2024 &amp; Save huge!</h2>\r\n          <h3>BRING A COLLEAGUE SAVE $200 TOTAL, BRING MORE, SAVE MORE</h3>\r\n          <a href=\"/register\" title=\"Register\">Register now</a>\r\n        </div>",
+                "content": "<div class=\"col-md-12 wow fadeInUp animated\" data-wow-delay=\"200ms\" data-wow-duration=\"1000ms\" style=\"visibility: visible; animation-duration: 1000ms; animation-delay: 200ms; animation-name: fadeInUp;\">\n          <h2>Book by Nov 2024 &amp; Save huge!</h2>\n          <h3>BRING A COLLEAGUE SAVE $200 TOTAL, BRING MORE, SAVE MORE</h3>\n          <a href=\"/register\" title=\"Register\">Register now</a>\n        </div>",
                 "headding": "Offers content"
             },
             "6": {
                 "category": "offers_content",
                 "content": "<div class=\"col-md-12 wow fadeInUp animated\" data-wow-delay=\"200ms\" data-wow-duration=\"1000ms\" style=\"visibility: visible; animation-duration: 1000ms; animation-delay: 200ms; animation-name: fadeInUp;\">\r\n          <h2>Book by Nov 2024 &amp; Save huge!</h2>\r\n          <h3>BRING A COLLEAGUE SAVE $200 TOTAL, BRING MORE, SAVE MORE</h3>\r\n          <a href=\"/register\" title=\"Register\">Register now</a>\r\n        </div>",
                 "headding": "Offers content"
+            },
+            "7": {
+                "category": "offers_content",
+                "content": "<div class=\"col-md-12 wow fadeInUp animated\" data-wow-delay=\"200ms\" data-wow-duration=\"1000ms\" style=\"visibility: visible; animation-duration: 1000ms; animation-delay: 200ms; animation-name: fadeInUp;\">\r\n          <h2>Book by Nov 2024 &amp; Save huge!</h2>\r\n          <h3>BRING A COLLEAGUE SAVE $200 TOTAL, BRING MORE, SAVE MORE</h3>\r\n          <a href=\"/register\" title=\"Register\">Register now</a>\r\n        </div>",
+                "headding": "Offers content"
+            },
+            "8": {
+                "category": "offers_content",
+                "content": "<div class=\"col-md-12 wow fadeInUp animated\" data-wow-delay=\"200ms\" data-wow-duration=\"1000ms\" style=\"visibility: visible; animation-duration: 1000ms; animation-delay: 200ms; animation-name: fadeInUp;\">\r\n          <h2>Book by Nov 2024 &amp; Save huge!</h2>\r\n          <h3>BRING A COLLEAGUE SAVE $200 TOTAL, BRING MORE, SAVE MORE</h3>\r\n          <a href=\"/register\" title=\"Register\">Register now</a>\r\n        </div>",
+                "headding": "Offers content"
+            },
+            "9": {
+                "category": "offers_content",
+                "content": "<div class=\"col-md-12 wow fadeInUp animated\" data-wow-delay=\"200ms\" data-wow-duration=\"1000ms\" style=\"visibility: visible; animation-duration: 1000ms; animation-delay: 200ms; animation-name: fadeInUp;\">\r\n          <h2>Book by Nov 2024 &amp; Save huge!</h2>\r\n          <h3>BRING A COLLEAGUE SAVE $200 TOTAL, BRING MORE, SAVE MORE</h3>\r\n          <a href=\"/register\" title=\"Register\">Register now</a>\r\n        </div>",
+                "headding": "Offers content"
             }
+        },
+        "download_brochure": {
+            "category": "download_brochure",
+            "content": "Join us for an unparalleled networking experience – register now to connect with industry professionals and leaders!",
+            "headding": "Download Brochure"
+        },
+        "important_dates": {
+            "category": "important_dates",
+            "content": "Stay ahead by marking your calendars with these crucial deadlines for the upcoming MNNC-2026. Timely registration and submissions will ensure you make the most of this premier event.",
+            "headding": "Important dates"
+        },
+        "Explore_Our_Comprehensive_Networking_Services": {
+            "category": "Explore_Our_Comprehensive_Networking_Services",
+            "content": "Participating in conferences opens doors to invaluable networking opportunities, allowing you to connect with industry leaders and like-minded peers. Additionally, our events provide access to cutting-edge insights and workshops that can enhance your skills and inspire your creative journey.",
+            "headding": "Explore Our comprehensive Networking Services"
+        },
+        "footer_content": {
+            "category": "footer_content",
+            "content": " Experience MNNC-2026, the future of Catalysis under a common roof by researchers from all around the globe, who lead the trends and pave the way for research in the field.",
+            "headding": "Footer content"
         }
     },
     "banner_conent": {
         "9": {
             "banner_conent_id": "9",
             "image": "images/banner.jpg",
-            "headding": "Exploring New Frontiers in Chemistry and Chemical Engineering",
-            "tag_line": "MSNC-April 16-17, 2026 in Barcelona, Spain",
-            "content": "Join the world's most in-demand Chemistry and Chemical Engineering Conference experts at the <b>Chemistry and Chemical Engineering Conference</b>. Learn keynote sessions, speaker insights, and innovation. <b>Download our brochure</b> to see what's more about this conference and book your place now!",
+            "headding": "Evolutions and Discoveries in Catalysis",
+            "tag_line": "Catalysis-MNNC October 21-22, 2026 in Singapore",
+            "content": "Discover new advancements and leading trends in catalytic processes and chemical synthesis at our global conference. It’s the platform for novel chemical methodologies and transformative applications to redefine the emerging future of the industry. Obtain your copy of the brochure now for session and speaker details.",
             "page": "index",
             "status": "1",
-            "cid": "10034"
+            "cid": "10062"
         }
     },
     "sessions": [
         {
-            "text": "1. Chemistry",
-            "link": "chemistry",
-            "session_short_name": "Chemistry"
+            "text": "1. Green Chemistry for Human Progress",
+            "link": "green-chemistry-for-human-progress",
+            "session_short_name": "Green Chemistry for Human Progress"
         },
         {
-            "text": "2. Catalysis in Green Chemistry",
-            "link": "catalysis-in-green-chemistry",
-            "session_short_name": "Catalysis in Green Chemistry"
+            "text": "2.\tEnzyme Engineering in Chemical Synthesis",
+            "link": "enzyme-engineering-in-chemical-synthesis",
+            "session_short_name": "Enzyme Engineering in Chemical Synthesis"
         },
         {
-            "text": "3. Thermodynamics in Chemical Engineering",
-            "link": "thermodynamics-in-chemical-engineering",
-            "session_short_name": "Thermodynamics in Chemical Engineering"
+            "text": "3.\tIndustrial Processes via Heterogeneous Catalysis",
+            "link": "industrial-processes-via-heterogeneous-catalysis",
+            "session_short_name": "Industrial Processes via Heterogeneous Catalysis"
         },
         {
-            "text": "4. Sustainable and Green Chemistry",
-            "link": "sustainable-and-green-chemistry",
-            "session_short_name": "Sustainable and Green Chemistry"
+            "text": "4. Catalysis for Pharmaceutical and Fine Chemicals",
+            "link": "catalysis-for-pharmaceutical-and-fine-chemicals",
+            "session_short_name": "Catalysis for Pharmaceutical and Fine Chemicals"
         },
         {
-            "text": "5. Polymer Chemistry",
-            "link": "polymer-chemistry",
-            "session_short_name": "Polymer Chemistry"
+            "text": "5.\tNanomaterials for Advanced Chemical Applications",
+            "link": "nanomaterials-for-advanced-chemical-applications",
+            "session_short_name": "Nanomaterials for Advanced Chemical Applications"
         },
         {
-            "text": "6. Material Chemistry",
-            "link": "material-chemistry",
-            "session_short_name": "Material Chemistry"
+            "text": "6.\tProcess Design for Green Innovations",
+            "link": "process-design-for-green-innovations",
+            "session_short_name": "Process Design for Green Innovations"
         },
         {
-            "text": "7. Nanomaterials & Nanotechnology",
-            "link": "nanomaterials-and-nanotechnology",
-            "session_short_name": "Nanomaterials & Nanotechnology"
+            "text": "7. Molecular Modeling in Sustainable Chemistry",
+            "link": "molecular-modeling-in-sustainable-chemistry",
+            "session_short_name": "Molecular Modeling in Sustainable Chemistry"
         },
         {
-            "text": "8. Separation Methods",
-            "link": "separation-methods",
-            "session_short_name": "Separation Methods"
+            "text": "8. Renewable Energy Solutions",
+            "link": "renewable-energy-solutions",
+            "session_short_name": "Renewable Energy Solutions"
         },
         {
-            "text": "9. Petroleum and Petrochemicals Research",
-            "link": "petroleum-and-petrochemicals-research",
-            "session_short_name": "Petroleum and Petrochemicals Research"
+            "text": "9.\tCatalyst Recycling in Chemical Engineering",
+            "link": "catalyst-recycling-in-chemical-engineering",
+            "session_short_name": "Catalyst Recycling in Chemical Engineering"
         },
         {
-            "text": "10. Reaction Engineering",
-            "link": "reaction-engineering",
-            "session_short_name": "Reaction Engineering"
+            "text": "10.\tPhotocatalysis & Electrocatalysis for Renewables",
+            "link": "renewable-energy-through-photocatalysis-and-electrocatalysis",
+            "session_short_name": "Renewable Energy through Photocatalysis and Electrocatalysis"
         }
     ],
     "important_dates": [
@@ -145,19 +160,19 @@
     "venue_images": {
         "9": {
             "image": "images/g1.webp",
-            "alt_text": "Barceloneta Beach"
+            "alt_text": "Marina Bay Sands"
         },
         "10": {
             "image": "images/g2.webp",
-            "alt_text": "Park Güell"
+            "alt_text": "Clarke Quay"
         },
         "11": {
             "image": "images/g3.webp",
-            "alt_text": "Gothic Quarter"
+            "alt_text": "Merlion Park"
         },
         "12": {
             "image": "images/g4.webp",
-            "alt_text": "Sagrada Familia"
+            "alt_text": "Gardens by the Bay"
         }
     }
 }
