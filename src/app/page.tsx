@@ -24,6 +24,7 @@ import {
 } from "@/lib/fallbacks";
 import Speakers from "./components/Speakers";
 import HeroSlider from "./components/HeroSlider";
+import Testimonials from "./components/Testimonials";
 
 async function safeFetch<T>(fn: () => Promise<T>, fallback: T): Promise<T> {
   try {
@@ -138,6 +139,7 @@ const Home = async () => {
       /> */}
       <HeroSlider generalbannerInfo={general}
         onelinerBannerInfo={indexPageData} />
+      <Testimonials />
       <Speakers />
       <SessionsComponent
         generalInfo={general_info}

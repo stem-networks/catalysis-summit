@@ -11948,3 +11948,384 @@ input[text]:focus {
 .volunteer-captcha {
 	margin-left: 0;
 }
+
+/* ==================== */
+/* Testinomials Block  */
+/* ==================== */
+
+.testinomials-video-block .testimonialsSection {
+	margin: 70px 0px 0;
+	background-color: #f9f9f9;
+}
+
+.testinomials-video-block .Testinomials-devisions-block {
+	display: grid;
+	grid-template-columns: 4fr 8fr;
+	gap: 60px;
+}
+
+.testinomials-video-block .left-testinomial-block {
+	background-color: #e2e2e2;
+	padding: 50px 30px;
+	/* border-right: 4px solid #d1d1d1; */
+	/* default border */
+	order: 1;
+}
+
+.testinomials-video-block .thumbnails {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.testinomials-video-block .thumbnail_video {
+	position: relative;
+	/* border-radius: 15px; */
+	overflow: hidden;
+	cursor: pointer;
+	background-color: none !important;
+	border-radius: 20px;
+	transition: border-color 0.3s;
+}
+
+.testinomials-video-block .thumbnail_video.active {
+	/* border: 4px solid var(--fourth-color); */
+	border-color: var(--fourth-color);
+	/* border-radius: 20px; */
+}
+
+.testinomials-video-block .iframeThumb {
+	width: 100%;
+	height: 170px;
+	border-radius: 20px;
+	transition: border 0.3s ease;
+	box-shadow: 0px 0 5px #a1a1a1;
+	border: 3px solid var(--white-color);
+}
+
+.iframeThumb.active {
+	border: 3px solid var(--secondary-color);
+}
+
+.testinomials-video-block .testinom-button-block {
+	display: flex;
+	justify-content: center;
+}
+
+.testinomials-video-block .testinom-top-button-block {
+	margin-bottom: 25px;
+}
+
+.testinomials-video-block .testinom-down-button {
+	margin-top: 25px;
+}
+
+.testinomials-video-block .testinom-top-button,
+.testinomials-video-block .testinom-down-button,
+.testinomials-video-block .testinom-left-button,
+.testinomials-video-block .testinom-right-button {
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	background-color: var(--primary-color);
+	color: var(--white-color);
+	border: 1px solid var(--primary-color);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.testinomials-video-block .testinom-top-button:hover,
+.testinomials-video-block .testinom-down-button:hover,
+.testinomials-video-block .testinom-left-button:hover,
+.testinomials-video-block .testinom-right-button:hover {
+	background-color: var(--white-color);
+	color: var(--primary-color);
+}
+
+/* Hide mobile arrows by default */
+.testinom-mobile-only {
+	display: none !important;
+}
+
+.testinom-desktop-only {
+	display: flex;
+}
+
+.testinomials-video-block .right-testinomial-block {
+	padding: 50px 0;
+	order: 2;
+}
+
+
+.testinomials-video-block .testinom-heading {
+	text-align: center;
+	font-size: 40px;
+	font-weight: 600;
+	color: var(--black-color);
+	margin-bottom: 2rem;
+}
+
+.testinomials-video-block .thumbnail_video {
+	position: relative;
+}
+
+.testinomials-video-block .chevron-icon {
+	font-size: 19px;
+}
+
+.testinomials-video-block .thumbnail_video .playOverlay {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 40px;
+	height: 40px;
+	background-color: red;
+	/* YouTube style red */
+	border-radius: 50%;
+	/* Make it circular */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-size: 1.5rem;
+	pointer-events: none;
+	/* clicks go to thumbnail div */
+	opacity: 0.9;
+	transition: transform 0.2s ease;
+}
+
+.testinomials-video-block .thumbnail_video:hover .playOverlay {
+	transform: translate(-50%, -50%) scale(1.1);
+	/* slight zoom on hover */
+	opacity: 1;
+}
+
+.testinomials-video-block .mainVideo {
+	border-radius: 25px;
+	overflow: hidden;
+	position: relative;
+	/* ensures clipping */
+	border: 3px solid var(--white-color);
+}
+
+.testinomials-video-block .testinom_iframeMain {
+	width: 100%;
+	aspect-ratio: 16/9;
+	/* responsive video height */
+	/* height: 500px; */
+	border: none;
+	border-radius: inherit;
+	/* ensures corners match parent */
+	display: block;
+	/* removes inline gaps */
+}
+
+/* .videoInfo {
+	padding: 1rem;
+	background-color: #fff;
+} */
+
+/* Responsive */
+@media screen and (max-width: 1100px) {
+
+	.testinomials-video-block .left-testinomial-block {
+		order: 2;
+	}
+
+	.testinomials-video-block .right-testinomial-block {
+		order: 1;
+		padding: 50px 0 0;
+	}
+
+	.testinomials-video-block .testinom_iframeMain {
+		aspect-ratio: 16/9;
+		/* height: auto; */
+	}
+}
+
+@media screen and (min-width:992px) and (max-width:1100px) {
+	.testinomials-video-block .Testinomials-devisions-block {
+		display: flex;
+		flex-direction: column;
+		gap: 30px !important;
+	}
+
+	/* Hide mobile arrows by default */
+	.testinom-mobile-only {
+		display: flex !important;
+		justify-content: center;
+		gap: 15px !important;
+		margin-top: 15px;
+	}
+
+	.testinom-desktop-only {
+		display: none !important;
+	}
+
+	/* .testinomials-video-block .testinom_iframeMain {
+		height: 400px;
+	} */
+
+	.testinomials-video-block .iframeThumb {
+		height: 180px;
+		width: 95%;
+		margin: 0 auto;
+	}
+
+	.testinomials-video-block .mainVideo {
+		width: 80%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+	.testinomials-video-block .Testinomials-devisions-block {
+		display: flex;
+		flex-direction: column;
+		gap: 30px !important;
+	}
+
+	/* Hide mobile arrows by default */
+	.testinom-mobile-only {
+		display: flex !important;
+		justify-content: center;
+		gap: 15px !important;
+		margin-top: 15px;
+	}
+
+	.testinom-desktop-only {
+		display: none !important;
+	}
+
+	/* .testinomials-video-block .testinom_iframeMain {
+		height: 400px;
+	} */
+
+	.testinomials-video-block .iframeThumb {
+		height: 180px;
+		width: 95%;
+		margin: 0 auto;
+	}
+
+	.testinomials-video-block .mainVideo {
+		width: 80%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+	.testinomials-video-block .Testinomials-devisions-block {
+		display: flex;
+		flex-direction: column;
+		gap: 30px !important;
+	}
+
+	/* Hide mobile arrows by default */
+	.testinom-mobile-only {
+		display: flex !important;
+		justify-content: center;
+		gap: 15px !important;
+		margin-top: 15px;
+	}
+
+	.testinom-desktop-only {
+		display: none !important;
+	}
+
+	/* .testinomials-video-block .testinom_iframeMain {
+		height: 400px;
+	} */
+
+	.testinomials-video-block .iframeThumb {
+		height: 200px;
+		width: 95%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width:320px) and (max-width:575px) {
+	.testinomials-video-block .Testinomials-devisions-block {
+		display: flex;
+		flex-direction: column;
+		gap: 30px !important;
+	}
+
+	/* Hide mobile arrows by default */
+	.testinom-mobile-only {
+		display: flex !important;
+		justify-content: center;
+		gap: 15px !important;
+		margin-top: 15px;
+	}
+
+	.testinom-desktop-only {
+		display: none !important;
+	}
+
+	/* .testinomials-video-block .testinom_iframeMain {
+		height: 400px;
+	} */
+
+	.testinomials-video-block .iframeThumb {
+		height: 200px;
+		width: 95%;
+		margin: 0 auto;
+	}
+
+	.testinomials-video-block .testinom-heading {
+		font-size: 35px;
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+	/* .testinomials-video-block .testinom_iframeMain {
+		height: 300px;
+	} */
+
+	.testinomials-video-block .iframeThumb {
+		height: 200px;
+	}
+
+	.testinomials-video-block .testinom-heading {
+		font-size: 32px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+
+	/* .thumbnails {
+		flex: 0 0 30%;
+	}
+
+	.mainVideo {
+		flex: 0 0 70%;
+	} */
+
+	.testinomials-video-block .testinom_iframeMain {
+		aspect-ratio: 16/9;
+		height: auto;
+	}
+
+	.testinomials-video-block .iframeThumb {
+		height: 200px;
+	}
+}
+
+/* Registration details  */
+@media (max-width: 375px) {
+	.sup_wrap_blue tr {
+		display: block;
+	}
+
+	.sup_wrap_blue tr .re_p3 {
+		display: block;
+		width: 100%;
+		box-sizing: border-box;
+		text-align: left;
+	}
+}
