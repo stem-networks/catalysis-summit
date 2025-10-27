@@ -261,7 +261,7 @@ a {
 }
 
 .book_wrap .index-contact:hover {
-	background-color: var(--secondary-color);
+	background-color: var(--primary-color);
 	color: var(--white-color);
 }
 
@@ -593,7 +593,7 @@ a {
 }
 
 .brand_wrap span {
-	color: var(--secondary-color);
+	color: var(--primary-color);
 }
 
 .lower-link a {
