@@ -431,8 +431,8 @@ const HeroSlider: React.FC<BannerSectionProps> = ({
                         src="/images/images/banner-image.webp"
                         alt={general?.clname}
                         title={general?.clname}
-                        width={1436}
-                        height={441}
+                        width={5004}
+                        height={1531}
                         className="conference-img"
                     />
                     {/* Polygon Shape */}
