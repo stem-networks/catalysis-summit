@@ -12318,7 +12318,7 @@ input[text]:focus {
 }
 
 /* Registration details  */
-@media (max-width: 375px) {
+@media (max-width: 460px) {
 	.sup_wrap_blue tr {
 		display: block;
 	}
@@ -12328,5 +12328,11 @@ input[text]:focus {
 		width: 100%;
 		box-sizing: border-box;
 		text-align: left;
+	}
+}
+
+@media (max-width: 460px) {
+	.bg_ap1 {
+		line-height: 28px;
 	}
 }
