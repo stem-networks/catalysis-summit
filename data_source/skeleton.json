@@ -121,14 +121,14 @@
     ],
     "previous_conference": [
       {
-        "title": "Previous Conference | Catalysis Conference 2026 | MNNC 2026 | Singapore | October 2026",
+        "title": "Previous Conference | Catalysis Conference 2025 | MNNC 2025 | Singapore | October 2025",
         "content": "Explore highlights from our previous Catalysis Conferences held worldwide. Relive inspiring keynote speeches, technical sessions, poster presentations, and collaborative discussions that shaped the future of chemical sciences. These successful past editions demonstrate the growth, innovation, and global participation of the MNNC Conference Series.",
         "meta_keywords": "Previous Chemistry Conferences, Catalysis Past Events, Chemistry Research Highlights, MNNC Previous Editions, Past Chemistry Conferences, Chemical Engineering Conference Archives, Global Chemistry Conference History"
       }
     ],
     "galleryEvent": [
       {
-        "title": "Gallery of Event | Catalysis Conference 2026 | MNNC 2026 | Singapore | October 2026",
+        "title": "Gallery of Event | Catalysis Conference 2025 | MNNC 2025 | Singapore | October 2025",
         "content": "Browse the gallery of the Catalysis Conference to experience memorable moments, keynote talks, poster sessions, panel discussions, and networking highlights. Relive the engaging atmosphere, global participation, and cutting-edge innovations showcased at MNNC events.",
         "meta_keywords": "Chemistry Conference Gallery, Chemical Engineering Conference Photos, Chemistry Event Highlights, MNNC Conference Images, Chemistry Conference Pictures, Catalysis Conference Gallery, Chemistry Conference Memories"
       }
@@ -145,7 +145,13 @@
     },
     {
       "title": "Previous Conference",
-      "link": "/previous-conference"
+      "link": "/previous-conference",
+      "subItems": [
+        {
+          "title": "2025 Conference Report",
+          "link": "/previous-conference"
+        }
+      ]
     },
     {
       "title": "Guidelines",
